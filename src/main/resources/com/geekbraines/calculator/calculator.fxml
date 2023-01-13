@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="492.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.geekbraines.calculator.Calculator">
+   <children>
+
+      <VBox prefHeight="0.0" prefWidth="0.0" />
+      <MenuBar layoutY="1.0" prefHeight="38.0" prefWidth="312.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TextField layoutX="7.0" layoutY="49.0" prefHeight="38.0" prefWidth="285.0" />
+      <Button layoutX="14.0" layoutY="92.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text="Button" />
+      <Button layoutX="74.0" layoutY="93.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text="Button" />
+      <Button layoutX="133.0" layoutY="93.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text="Button" />
+      <Button mnemonicParsing="false" text="Button" />
+      <Button layoutX="192.0" layoutY="92.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="59.0" text="Button" />
+
+   </children>
+</AnchorPane>
